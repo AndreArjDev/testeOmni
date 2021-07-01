@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.topo{
+	width: cover;
+	height: 100px;
+	background-color: rgb(90, 87, 245);
+	border: 1px solid rgb(255, 254, 254);
+	text-align: right;
+
+}
+.topo h1{
+	text-align: center;
+	color: white;
+	font-size:30px;
+    margin-top: 10px;
+}
+
+.topo p{
+    margin-top: 30px;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 5px;
+	color: white;
+	background-color: darkgrey;
+	border-radius: 10px;
+}
+.topo a{
+    text-decoration: none;
+}
+.topo input{
+    width: 100px;
+    height: 30px;
+    margin:auto;
+}
+.topo button{
+    width: 100px;
+    height: 30px;
+}

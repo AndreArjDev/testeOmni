@@ -1,0 +1,52 @@
+@charset "utf-8";
+div.limitador-player{
+	width: cover;
+	height: 600px;
+	background-color: rgb(90, 87, 245);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li.player{
+	position: relative;
+	margin-left: 10%;
+	margin-right: 5%;
+	margin-top: 10px;
+	display: inline-flex;
+	width:200px;
+	height:200px;
+	background-color: rgb(90, 87, 245);
+	border-radius: 10px;
+
+}
+li.player iframe{
+	width:250px;
+	height:250px;
+	
+	margin-bottom: 100px;
+}
+li.player p{
+	font-size: 15px;
+}
+
+
+@media (max-width:680px){
+	
+	div.limitador-player{
+		width: cover;
+		height: auto;
+		background-color: rgb(90, 87, 245);
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	li.player iframe{
+		
+		width:250px;
+		height:250px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}

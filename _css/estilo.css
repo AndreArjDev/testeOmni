@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+html,body{
+	font-family: 'Press Start 2P', cursive;
+	width: 100%;
+	height: 100%;
+}
+div.limitador{
+	width: 100%;
+	height: 1200px;
+	min-height: 90%;
+	
+}
+
+
+section{
+
+	width: cover;
+	height:600px;
+	
+}
+
+section h2{
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+footer{
+	bottom:calc(body-10px);
+	position:absolute;
+	width: 100%;
+	height: 50px;
+	background-color: darkgray;
+	text-align: center;
+}
+
+@media(max-width:680px){
+	footer{
+	bottom: initial;
+	position:relative;
+	width: 100%;
+	height: 50px;
+	background-color: darkgray;
+	text-align: center;
+}
+
+}

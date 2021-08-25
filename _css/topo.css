@@ -4,28 +4,35 @@
 	width: cover;
 	height: 100px;
 	background-color: rgb(90, 87, 245);
-	border: 1px solid rgb(255, 254, 254);
+	margin-top: -10px;
 	text-align: right;
 
 }
 .topo h1{
+	padding-top: 10px;
 	text-align: center;
 	color: white;
-	font-size:30px;
+	font-size:40px;
+	font-style: bold;
     margin-top: 10px;
 }
 
-.topo p{
-    margin-top: 30px;
+.topo nav p{
+	
+    margin-top: 15px;
 	display: inline-block;
-	margin-right: 10px;
-	padding: 5px;
+	margin-right: 20px;
+	padding: 10px;
 	color: white;
 	background-color: darkgrey;
 	border-radius: 10px;
+	
 }
+
 .topo a{
+	
     text-decoration: none;
+	color: white;
 }
 .topo input{
     width: 100px;

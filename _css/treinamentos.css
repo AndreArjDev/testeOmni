@@ -2,33 +2,56 @@
 div.limitador-player{
 	width: cover;
 	height: 600px;
+	
 	background-color: rgb(90, 87, 245);
 	margin-left: auto;
 	margin-right: auto;
 }
 
-li.player{
-	position: relative;
-	margin-left: 10%;
-	margin-right: 5%;
-	margin-top: 10px;
-	display: inline-flex;
-	width:200px;
-	height:200px;
-	background-color: rgb(90, 87, 245);
-	border-radius: 10px;
+#tela{
+	float: right;
+	width: 50%;
+	margin:20px 50px 10px 10px;
+	margin:10px;
+
 
 }
-li.player iframe{
-	width:250px;
-	height:250px;
+
+#listaTreinamentos{
+	width:40%;
+	margin:20px 20px 10px 50px;
+
+	float: left;
+	padding: auto;
+	 
+}
+#listaTreinamentos h6 {
+	margin: 8px;
+	padding: 5px;
+	font-size: 13px;
 	
-	margin-bottom: 100px;
-}
-li.player p{
-	font-size: 15px;
 }
 
+a {
+	text-decoration: none;
+	color:white;
+}
+
+.myVideo {
+	background-color: #000000;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+
+.active {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
 
 @media (max-width:680px){
 	
@@ -40,13 +63,28 @@ li.player p{
 		margin-right: auto;
 	}
 
-	li.player iframe{
+	#tela{
 		
-		width:250px;
-		height:250px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		width: 90%;
+		margin:20px 50px 10px 50px;
+		
+	
+	
+	}
+	#listaTreinamentos{
+		clear:both;
+		width:90%;
+		margin:20px 20px 10px 50px;
+		
+		padding: auto;
+		
+	}
+	#listaTreinamentos h6 {
+		margin: 8px;
+		padding: 5px;
+	}
+	a{
+		text-decoration: none;
+		color:blue;
 	}
 }

@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 *{
 	margin:0;
@@ -7,7 +7,7 @@
 }
 
 html,body{
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
 	width: 100%;
 	height: 100%;
 }
@@ -34,8 +34,9 @@ section h2{
 
 
 footer{
-	bottom:calc(body-10px);
-	position:absolute;
+	clear:both;
+	bottom:calc('.limitador' + 10px);
+	position:relative;
 	width: 100%;
 	height: 50px;
 	background-color: darkgray;
@@ -44,12 +45,13 @@ footer{
 
 @media(max-width:680px){
 	footer{
-	bottom: initial;
-	position:relative;
-	width: 100%;
-	height: 50px;
-	background-color: darkgray;
-	text-align: center;
+		clear:both;
+		bottom:calc('.limitador' + 10pt);
+		position:relative;
+		width: 100%;
+		height: 50px;
+		background-color: darkgray;
+		text-align: center;
 }
 
 }

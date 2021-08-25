@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Treinamentos</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
 	<link rel="stylesheet" type="text/css" href="_css/topo.css"/>
 	<link rel="stylesheet" type="text/css" href="_css/treinamentos.css"/>
@@ -14,18 +14,20 @@
 
 <body>
 	<header class="topo">
-		<h1>Mão na Massa</h1>
+		<h1>P O T C</h1>
 		
 		<div class="menu">
-			<p>Home</p>
+		<nav>
+			<p><a href='#home'>Home</a></p>
 			<p><a href="#treinamentos">Treinamentos</a></p>
-			<p>Contato</p>
+			<p><a href="http://web.whatsapp.com/send?phone=555199659303" target="_blank">Contato</a></p>
+		</nav>
 		</div>
 		
 	</header>
 	<div class="limitador">
 	<section id="home">
-		<h2>Home</h2>
+		
 
 	</section>
 	
@@ -33,20 +35,27 @@
 		
 		<div class="limitador-player">
 			<h2>Treinamentos</h2>
-			<ul>
-				<li class="player"><iframe src="https://www.youtube.com/embed/E1tR7sYMEN0" title="YouTube video player" frameborder="0" allowfullscreen></iframe></li>
-				<li class="player"><iframe src="https://www.youtube.com/embed/E1tR7sYMEN0" title="YouTube video player" frameborder="0" allowfullscreen><p>Treinamento</p></iframe></li>
-				<li class="player"><iframe src="https://www.youtube.com/embed/E1tR7sYMEN0" title="YouTube video player" frameborder="0" allowfullscreen></iframe></li>
-				<li class="player"><iframe src="https://www.youtube.com/embed/E1tR7sYMEN0" title="YouTube video player" frameborder="0" allowfullscreen></iframe></li>
-				<li class="player"><iframe src="https://www.youtube.com/embed/E1tR7sYMEN0" title="YouTube video player" frameborder="0" allowfullscreen></iframe></li>
-				<li class="player"><iframe src="_medias/cienciadedados.mp4" title="YouTube video player" frameborder="0" allowfullscreen></iframe></li>
-			</ul>
+			<div id="listaTreinamentos">
+				<a href="#tela" id="toVideo1" class="showVideo"><h6>Paulo Silveira - Ciencia de dados</h6> </a>
+				
+				
+				
+			</div>
+			<div id="tela" >
+				
+				<iframe id="video1" class="myVideo hide" width="300" height="300" src="https://www.youtube.com/embed/9W-gedhzm6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><p>HTML5 audio is not supported on your browser</p></iframe>
+					
+                
+				
+				
+			</div>
 		</div><!--limitador-player-->
-	
+		
 	</section>
+		
 	
 	</div><!--Limitador-->
 	<div><footer>| Usguri |</footer></div>	
-	
+	<script type="text/javascript" src="_js/player.js"></script>
 </body>
 </html>
